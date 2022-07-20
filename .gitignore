@@ -354,3 +354,6 @@ MigrationBackup/
 launchSettings.json
 coverage.*.opencover.xml
 results.xml
+
+# Rider
+.idea
