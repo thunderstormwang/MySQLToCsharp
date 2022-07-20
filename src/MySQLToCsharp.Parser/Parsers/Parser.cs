@@ -36,7 +36,7 @@ namespace MySQLToCsharp.Parsers
 
         public void Parse(string query, IParseTreeListener[] listeners)
         {
-            ICharStream stream = CharStreams.fromstring(query);
+            ICharStream stream = CharStreams.fromString(query);
             stream = new ToUpperStream(stream);
             ITokenSource lexer = new MySqlLexer(stream);
             ITokenStream tokens = new CommonTokenStream(lexer);

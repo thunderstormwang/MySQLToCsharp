@@ -110,7 +110,7 @@ namespace MySQLToCsharp.Listeners
             // 0: COMMENT
             // 1: =
             // 2: 'Your comment'
-            var comment = context.GetChild<TerminalNodeImpl>(2).GetText().RemoveStartEndChar('\'');
+            var comment = context.GetChild<TerminalNodeImpl>(1).GetText().RemoveStartEndChar('\'');
             TableDefinition.Comment = comment;
         }
 
