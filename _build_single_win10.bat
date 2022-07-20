@@ -1,0 +1,2 @@
+dotnet publish ".\src\MySQLToCsharp" -c Release -r win-x64 --framework netcoreapp3.1 -p:PublishSingleFile=true -p:IncludeNativeLibrariesForSelfExtract=yes --self-contained
+rem dotnet publish ".\src\MySQLToCsharp" -c Release -r linux-x64 -p:PublishSingleFile=true -p:IncludeNativeLibrariesForSelfExtract=yes --self-contained

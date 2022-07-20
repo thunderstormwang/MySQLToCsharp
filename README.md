@@ -155,6 +155,13 @@ sample
 dotnet mysql2csharp dir -i "./MySQLToCsharp.Tests/test_data/sql/" -o bin/out -n MyNameSpace.Data
 ```
 
+### dir-to-markdown
+
+sample
+```shell
+.\MySQLToCsharp_win-x64_0.1.0.exe dir-to-markdown -i .\payment
+```
+
 ## Available Conveters
 
 * StandardConverter
